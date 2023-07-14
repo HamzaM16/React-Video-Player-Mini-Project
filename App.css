@@ -1,0 +1,87 @@
+.header {
+  background-color: #333;
+  padding: 20px;
+  text-align: center;
+}
+
+.header-title {
+  color: #fff;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.header-dependencies {
+  color: #fff;
+  font-size: 14px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  
+}
+
+.centered {
+  
+  flex-direction: column;
+  align-items: center;
+  margin-top: -50px; /* Adjust the margin-top value as needed */
+}
+
+
+.video-player {
+  margin-top: 50px;
+  border: 1px solid white;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+.progress-bar {
+  width: 100%;
+  height: 8px;
+  background-color: #918b8b;
+  border-radius: 4px;
+  margin-top: 1px;
+  border: 1px solid rgb(0, 0, 0);
+}
+
+.progress-bar-fill {
+  height: 100%;
+  background-color: #d42525;
+  border-radius: 4px;
+}
+
+.dropdown-item-box {
+  display: block;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border: 1px solid #FFFDD0;
+  border-radius: 4px;
+  margin-bottom: 5px;
+}
+
+.dropdown-item-box:hover {
+  background-color: #e0e0e0;
+}
+
+.video-dropdown-box {
+  position: absolute;
+  
+  right: 1150px;
+  top: 96px;
+  
+}
+
+.container {
+  background-color: #B0E2FF; 
+}
+
+body {
+  background-color: #B0E2FF; /* Replace with your desired baby blue color */
+  margin: 0;
+  padding: 0;
+  /* Add other styles as needed */
+}
+
